@@ -20,4 +20,5 @@ Ruby Sample Usage
 ::
 
 	require 'ssl_stat'
+	include SSLStat
 	info = check "https://example.com"
